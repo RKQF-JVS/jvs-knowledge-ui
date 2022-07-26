@@ -1,0 +1,28 @@
+// theme
+$left-width: 295px;
+$white-color: white;
+$black-color: black;
+$font-family: 'SourceHanSansCN';
+$themes: (
+  light: (
+    back-color: #07257D,
+    left-width: 295px,
+    left-color: $white-color,
+    logo-height: 97px,
+    logo-text-color: $white-color,
+    logo-text-size: 18px,
+    logo-text-family: 'SourceHanSansCN-Bold',
+    menu-text-color: $white-color,
+    // 一级
+    meun-item-text-size: 18px,
+    // 二级
+    menu-item-item-back: #4A8FF0, // #3859BC,
+  ),
+  dark: (
+    // color variables
+    primary-color: #2977b5,
+    // header
+    header-bg-color: #e4393c,
+    header-text-color: $black-color,
+  ),
+);

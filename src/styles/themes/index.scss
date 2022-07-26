@@ -1,0 +1,80 @@
+@import './common/variables';
+@import './common/mixins';
+
+.theme-box {
+  @include themify() {
+    color: themed('primary-color');
+  }
+
+  // 左侧栏宽
+  .jvs-left{
+    @include themify() {
+      width: themed('left-width');
+      background: themed('back-color');
+      color: themed('left-color');
+      .jvs-sidebar{
+        background: themed('back-color');
+        padding-top: themed('logo-height');
+      }
+    }
+  }
+  
+  // logo主题
+  .jvs-logo{
+    @include themify() {
+      width: themed('left-width');
+      height: themed('logo-height');
+      color: themed('logo-text-color');
+      background: themed('back-color');
+      font-family: themed('logo-text-family');
+      // logo文字
+      .jvs-logo_title{
+        font-size: themed('logo-text-size');
+        line-height: themed('logo-height');
+      }
+    }
+  }
+
+  // 左侧菜单栏
+  .el-scrollbar{
+    @include themify() {
+      .el-scrollbar__wrap{
+        margin: 0!important;
+        scrollbar-width: none; /* firefox */
+        -ms-overflow-style: none; /* IE 10+ */
+        .el-scrollbar__view{
+          .el-menu{
+            // 存在二级菜单
+            .menu-wrapper{
+              .el-submenu{
+                .el-submenu__title{
+                  i, span{
+                    color: themed('menu-text-color');
+                    font-size: themed('meun-item-text-size');
+                  }
+                }
+              }
+            }
+            // 无二级菜单
+            .el-menu-item{
+              background: themed('menu-item-item-back');
+              i, span{
+                color: themed('menu-text-color');
+              }
+            }
+            .is-active{
+              background: themed('back-color');
+            }
+            .is-active::before{
+              background: #A3BAFC;
+              width: 6px;
+            }
+          }
+        }
+      }
+    }
+    .el-scrollbar__wrap::-webkit-scrollbar {
+      display: none; /* Chrome Safari */
+    }
+  }
+}

@@ -1,0 +1,237 @@
+/**
+  * 统一修改
+  * 全屏弹框的表单、
+  * 表格
+  * 按钮
+*/
+
+// 全屏表单  form-fullscreen-dialog
+.form-fullscreen-dialog{
+  .el-dialog.is-fullscreen{
+    position: relative;
+    .el-dialog__header{
+      padding: 0;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      .el-dialog__title{
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 30px;
+        position: relative;
+        padding-left: 20px;
+      }
+      .el-dialog__title::before{
+        position: absolute;
+        content: "";
+        width: 4px;
+        height: 18px;
+        background: #3471ff;
+        border-radius: 2px;
+        cursor: pointer;
+        left: 0;
+        top: 4px;
+        cursor: auto;
+      }
+      .el-dialog__headerbtn{
+        top: 12px;
+      }
+    }
+    .el-dialog__body{
+      position: absolute;
+      top: 50px;
+      width: 50%;
+      left: 25%;
+      padding: 10px 0;
+      .el-form{
+        .el-form-item{
+          .el-form-item__label-wrap{
+            .el-form-item__label{
+              font-size: 14px;
+            }
+            .el-form-item__content{
+              font-size: 14px;
+            }
+          }
+          .el-button{
+            font-size: 12px;
+            // background-color: #409eff;
+            // color: #fff;
+            // border-color: #409eff;
+          }
+          .el-button--primary{
+            background-color: #409eff;
+            color: #fff;
+          }
+        }
+      }
+      // 兼容有提示+校验 的表单项
+      .jvs-form-autoflexable{
+        .el-form-item{
+          margin-bottom: 18px;
+        }
+      }
+    }
+  }
+}
+
+// 表格
+.jvs-table{
+  .jvs-table-top{
+    .el-card__body{
+      padding: 0!important;
+      .pageheader-top{
+        display: flex;
+        height: 30px;
+        align-items: center;
+        margin-bottom: 10px;
+        .pageheader-line{
+          margin-left: 20px;
+        }
+        .title{
+          font-size: 18px;
+          font-weight: 600;
+          margin-left: 16px;
+        }
+      }
+      .search-form{
+        margin-left: 40px;
+        margin-bottom: 0;
+        .el-col{
+          margin-bottom: 10px;
+        }
+      }
+      .table-top{
+        .table-top-left{
+          margin-left: 40px;
+          .el-button{
+            //background: #409eff;
+            //border-color: #409eff;
+            background: #3471FF;
+            border-color: #3471FF;
+            color: #fff;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .table-body-box{
+    .el-table{
+      color: #606266;
+      .el-table__header-wrapper{
+        margin-top: 26px;
+        tr{
+          th{
+            font-size: 14px;
+            color: #222;
+          }
+        }
+      }
+      .el-table__body{
+        tr{
+          td{
+            padding: 8px 0;
+          }
+        }
+      }
+      .el-table__fixed, .el-table__fixed-right{
+        margin-top: 26px;
+        box-shadow: 0 10px 10px rgba(0,0,0,0.12);
+      }
+    }
+    .el-table::before{
+      z-index: 9;
+    }
+  }
+  .jvs-table-titleTop{
+    padding: 0 10px;
+    .pageheader-top{
+      display: flex;
+      margin-bottom: 10px;
+      .pageheader-line{
+        margin-left: 30px;
+      }
+      .title{
+        margin-left: 16px;
+      }
+    }
+    .table-top{
+      .table-top-left{
+        margin-left: 50px;
+      }
+    }
+  }
+}
+
+// 表单
+.jvs-form{
+  .el-form-item{
+    .jvs-form-item{
+      min-height: 28px;
+      .is-disabled{
+        .el-input__prefix, .el-input__suffix, .el-input-number__decrease, .el-input-number__increase, .el-input-group__append{
+          display: none;
+        }
+        .el-input__inner, .el-textarea__inner{
+          border: 0;
+          background: none;
+          font-size: 14px;
+          color: #303133;
+          cursor: text;
+          padding-left: 0;
+        }
+      }
+    }
+    .form-item-tips{
+      color: #999;
+    }
+  }
+}
+
+// 树形组件
+.el-tree{
+  .el-tree-node{
+    .el-tree-node__content{
+      height: 40px;
+    }
+  }
+}
+
+// 弹框动画
+.el-dialog__wrapper {
+	transition-duration: .3s;
+}
+.dialog-fade-enter-active{
+	animation: none !important;
+}
+.dialog-fade-leave-active {
+	transition-duration: .15s !important;
+	animation: none !important;
+  }
+
+.dialog-fade-enter-active .el-dialog,
+.dialog-fade-leave-active .el-dialog{
+	animation-fill-mode: forwards;
+}
+
+// zoom
+.dialog-fade-enter-active .el-dialog{
+	animation-duration: .3s;
+	animation-name: anim-open;
+	animation-timing-function: cubic-bezier(0.6,0,0.4,1);
+}
+
+.dialog-fade-leave-active .el-dialog{
+	animation-duration: .3s;
+	animation-name: anim-close;
+}
+
+@keyframes anim-open {
+	0% { opacity: 0;  transform: scale3d(0, 0, 1); }
+	100% { opacity: 1; transform: scale3d(1, 1, 1); }
+}
+@keyframes anim-close {
+	0% { opacity: 1; }
+	100% { opacity: 0; transform: scale3d(0.5, 0.5, 1); }
+}

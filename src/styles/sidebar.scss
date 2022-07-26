@@ -1,0 +1,128 @@
+.jvs-sidebar {
+  user-select: none;
+  position: relative;
+  margin-top: 64px;
+  height: 100%;
+  position: relative;
+  // 菜单背景颜色
+  // background-color: #20222a;
+  background-color: #fff;
+  transition: width .2s;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 6px rgba(0, 21, 41, .35) ;
+
+  &--tip {
+    width: 90%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 5%;
+    color: #ccc;
+    z-index: 2;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, .4);
+  }
+
+  .el-menu-item,
+  .el-submenu__title {
+    font-size: 12px;
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .el-menu-item {
+    span, i {
+      //color:rgba(255, 255, 255, 0.7);
+    }
+
+    &:hover {
+      color: #000!important;
+      span,
+      i {
+        color: #000!important;
+      }
+      // background: #F5F5F5;
+    }
+
+    &.is-active {
+      // background-color: #f5f5f5;
+
+      span,
+      i {
+        color: #000;
+      }
+
+      &:hover {
+        // background-color: #f5f5f5;
+      }
+
+      &::before {
+        content: " ";
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 4px;
+        // background: $mainBg;
+        position: absolute
+      }
+    }
+  }
+
+  .el-submenu__title {
+    span, i {
+      // color:rgba(255, 255, 255, 0.7);
+      // 一级菜单字体颜色
+      color: #333;
+    }
+
+    &:hover {
+      i,
+      span {
+        // 一级菜单字体 hover 颜色
+        color: #000;
+      }
+
+      background-color: transparent;
+    }
+  }
+
+  .el-submenu .el-menu-item {
+    height: 50px;
+    line-height: 50px;
+
+    span, i {
+      // color:rgba(255, 255, 255, 0.7);
+      // 二级菜单字体颜色
+      color: #333;
+    }
+
+    &.is-active {
+      background-color: rgba(145, 160, 177, 0.5);
+
+      span,
+      i {
+        // 被选中菜单字体颜色
+        color: #1890ff
+      }
+
+      &:hover {
+        background-color: rgba(0, 0, 0, .1);
+      }
+    }
+
+    &:hover {
+      background-color: transparent;
+
+      span,
+      i {
+        // 菜单字体 hover 颜色
+        color: #1890ff;
+      }
+    }
+  }
+}
