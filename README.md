@@ -96,7 +96,7 @@
 
 
 ### 快速部署文档
-https://gitee.com/software-minister/jvs-docker-compose/blob/master/readme.md
+https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 
 ### 使用与授权
