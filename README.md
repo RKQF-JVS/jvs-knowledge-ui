@@ -120,7 +120,7 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 ### 技术交流与商务支持
 
-<img width="143" alt="1665533540447" src="https://user-images.githubusercontent.com/94048608/195221247-4f7dd95c-f73e-434f-9416-e8e6b4c1b605.png">
+<img width="210" alt="1666099508516" src="https://user-images.githubusercontent.com/94048608/196442796-eee99561-83ae-49d8-b209-03cbd0c598e9.png">
 
 
 ### 历史更新记录：
