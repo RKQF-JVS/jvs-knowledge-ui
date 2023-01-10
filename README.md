@@ -14,11 +14,10 @@
 
 
 ### 技术栈选择
-
 - 前端：VUE+Element-ui
 - 后端：spring_cloud_alibaba、spring boot、Mybatis plus、Nacos、RabbitMq、Xxl-job
 - 数据：Mysql、ElasticSearch、Redis、MariaDB（根据情况）
-- 运维：K8S+docker
+- 运维：K8S+docker、dockercompose
 
 
 ### 项目价值
@@ -60,7 +59,7 @@
 * 多场景的文库管理：全网、企业、私有
 * 文档的评论与收藏功能
 * 静态模板
-
+* 支持移动端
 
 
 
@@ -80,7 +79,7 @@
 - 管理端+应用编辑：联系运营微信号 ruanjbz，开设独立环境与独立账号
 - 管理端+平台配置+应用编辑：联系运营微信号 ruanjbz，获取私有化部署文档与安装包
 
-地址说明：
+地址说明（系列产品）：
 - 管理平台（含管理平台、低代码、数据智仓）：https://frame.bctools.cn/
 - 企业文档：http://knowledge.bctools.cn/
 - 企业计划（项目管理）：http://teamwork.bctools.cn/
@@ -90,19 +89,14 @@
 
 
 部分截图：
-![输入图片说明](img/2.png)
+![image](https://user-images.githubusercontent.com/94048608/211458792-d4a45f03-2d31-49c6-a1d5-ce7e81b021c5.png)
+![image](https://user-images.githubusercontent.com/94048608/211458820-5e4b6916-070d-4262-afcc-b291d725364e.png)
+![image](https://user-images.githubusercontent.com/94048608/211458839-ba4b5205-7862-4c9c-8751-41a409252304.png)
+![image](https://user-images.githubusercontent.com/94048608/211458860-4d32a4e5-9314-4e74-adf1-7a10089678a4.png)
+![image](https://user-images.githubusercontent.com/94048608/211458885-49d99fe7-0aeb-4ac7-9a36-8b1c2cd32d5a.png)
+![image](https://user-images.githubusercontent.com/94048608/211458902-93bf3f9b-9dcd-41ba-b0d6-3babd21d0d83.png)
+![image](https://user-images.githubusercontent.com/94048608/211458932-cbeca18a-6df8-4e21-a1cc-b6979d5b3612.png)
 
-![输入图片说明](img/3.png)
--
-![输入图片说明](img/4.png)
--
-![输入图片说明](img/5.png)
--
-![输入图片说明](img/6.png)
-
-![输入图片说明](img/7.png)
-
-![输入图片说明](img/8.png)
 
 
 ### 快速部署文档
@@ -111,19 +105,7 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 ### 使用与授权
 无忧企业文档社区版本100%开源模式，在合规备案情况下，支持自用与商用，商用提供100%源代码。
-### 版本说明：
-使用用途|费用模式|使用条件|授权时间
--|-|-|-
-个人学习|免费|免费备案|永久
-商用、二次开发|收费、代码交付|技术服务合同+商用备案|永久
 
-### 商用费用说明：
-> 技术服务费，必选，具体费用请与商务沟通
-> 定制开发费，可选，1500元/人天
-> 部署费用，可选，500元/次
-> 长期运维，可选，协商
-
-备案说明：联系我们的商务人员，在线备案，备案内容：项目名称，使用模式（自用/商用），备案主体主体，备案联系人员，即可。
 ### 禁止行为（为了保障产品走得更远）：
 * 在未获得我方认可分发代码的情况下，禁止以任何形式进行代码分发（包含但不限于代码拷贝、代码公开、代码开源、代码分享等行为）
 * 禁止在未备案的情况下，私自使用（包含自用与商用）
@@ -133,20 +115,3 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 <img width="113" alt="1673319273561" src="https://user-images.githubusercontent.com/94048608/211451271-eb894f2f-f0d1-4e6e-9e4c-871d56d98e8d.png">
 
 
-### 历史更新记录：
-V1.3  20211202 
-
-* 修改部分UI展示图
-* 添加多种文件格式在线预览
-* 添加软件介绍页
-* 添加当前租户下与组织内人员查看
-* 添加知识库背景替换
-* 修复部分BUG
-
-### 当前版本
-V1.5
-* 支持多人在线同时协同编辑
-* 优化画图功能
-* 文档知识库分享
-* 模板管理
-* 接入WPS
