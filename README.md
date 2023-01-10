@@ -68,13 +68,9 @@
 企业文档分为业务前台与管理后台，项目由 业务前台与业务后台组成：
 
 - 业务前台前端地址：https://github.com/RKQF-JVS/jvs-knowledge-ui
-- 
 - 业务前台后端地址：https://github.com/RKQF-JVS/jvs-apply-document
-- 
 - 管理后台前端地址：https://github.com/RKQF-JVS/jvs-ui
-- 
 - 管理后台后端地址：https://github.com/RKQF-JVS/jvs
-- 
 
 
 ## 体验地址与账号说明
@@ -86,12 +82,12 @@
 管理端+平台配置+应用编辑：联系运营微信号 ruanjbz，获取私有化部署文档与安装包
 地址说明：
 
-管理平台（含管理平台、低代码、数据智仓）：https://frame.bctools.cn/
-企业文档：http://knowledge.bctools.cn/
-企业计划（项目管理）：http://teamwork.bctools.cn/
-企业邮筒（Web邮箱客户端）：http://mailbox.bctools.cn/
-规则引擎：http://jvs-rules.bctools.cn/
-视频会议：http://meeting.bctools.cn/
+- 管理平台（含管理平台、低代码、数据智仓）：https://frame.bctools.cn/
+- 企业文档：http://knowledge.bctools.cn/
+- 企业计划（项目管理）：http://teamwork.bctools.cn/
+- 企业邮筒（Web邮箱客户端）：http://mailbox.bctools.cn/
+- 规则引擎：http://jvs-rules.bctools.cn/
+- 视频会议：http://meeting.bctools.cn/
 
 
 部分截图：
