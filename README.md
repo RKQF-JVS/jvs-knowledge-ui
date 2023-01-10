@@ -79,6 +79,7 @@
 - 管理端(全网共享)：testadmin 123456
 - 管理端+应用编辑：联系运营微信号 ruanjbz，开设独立环境与独立账号
 - 管理端+平台配置+应用编辑：联系运营微信号 ruanjbz，获取私有化部署文档与安装包
+
 地址说明：
 - 管理平台（含管理平台、低代码、数据智仓）：https://frame.bctools.cn/
 - 企业文档：http://knowledge.bctools.cn/
