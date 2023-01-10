@@ -73,6 +73,8 @@
 
 
 ## 体验地址与账号说明
+![image](https://user-images.githubusercontent.com/94048608/211461950-28f018a2-cef2-4e9e-9ca4-793a5689be4a.png)
+
 账号说明：
 - 普通用户端：体验者自有微信扫码登录
 - 管理端(全网共享)：testadmin 123456
