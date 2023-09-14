@@ -114,7 +114,8 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 ### 技术交流与商务支持
 
-<img width="113" alt="1673319273561" src="https://guanwang-2022.oss-cn-chengdu.aliyuncs.com/%E7%BE%A4%E4%BA%8C%E7%BB%B4%E7%A0%81.png">
+<img width="83" alt="群二维码" src="https://github.com/RKQF-JVS/jvs-knowledge-ui/assets/94048608/ca05a53f-331a-420a-8fe6-6922d556e008">
+
 
 
 
