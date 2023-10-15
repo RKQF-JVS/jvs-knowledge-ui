@@ -87,6 +87,7 @@
 - 企业计划（项目管理）：http://teamwork.bctools.cn/
 - 企业邮筒（Web邮箱客户端）：http://mailbox.bctools.cn/
 - 规则引擎：http://jvs-rules.bctools.cn/
+- 逻辑引擎：http://logic.bctools.cn
 - 视频会议：http://meeting.bctools.cn/
 
 
@@ -114,7 +115,8 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 ### 技术交流与商务支持
 
-![群二维码](https://github.com/RKQF-JVS/jvs-knowledge-ui/assets/94048608/a9a2d7d7-31e9-42d2-b831-7618a3893340)
+![群二维码](https://github.com/RKQF-JVS/jvs-knowledge-ui/assets/94048608/06258737-05dc-43a4-9b44-3023a3d5a9fb)
+
 
 
 
