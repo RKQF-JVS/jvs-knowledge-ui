@@ -3,7 +3,7 @@
  * https://cli.vuejs.org/zh/config/#%E7%9B%AE%E6%A0%87%E6%B5%8F%E8%A7%88%E5%99%A8
  *
  */
-const url = "http://www.bctools.cn" // "10.1.0.42:10000"
+const url = "http://localhost:10000" 
 // 基础路径，发布前修改这里,当前配置打包出来的资源都是相对路径
 let path = "jvs-knowledge-ui" // fixme 请修改为自己的前端项目名称
 module.exports = {
@@ -34,7 +34,7 @@ module.exports = {
   },
   // 配置转发代理
   devServer: {
-    port: 10000,
+    port: 8081,
     proxy: {
       '/mgr': {
         target: url,
