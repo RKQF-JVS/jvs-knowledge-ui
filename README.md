@@ -127,7 +127,8 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 ### 技术交流与商务支持
 
-![群二维码](https://github.com/RKQF-JVS/jvs-knowledge-ui/assets/94048608/68ef4dca-ef5a-4072-a0de-9d53de503d59)
+![群二维码](https://github.com/RKQF-JVS/jvs-knowledge-ui/assets/94048608/d6387a21-7414-4e8e-ad96-c809555b0c2a)
+
 
 如因人数限制无法加群时，可加运营同学拉入技术交流群
 
