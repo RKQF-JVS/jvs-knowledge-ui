@@ -101,9 +101,9 @@ https://www.bilibili.com/video/BV1BN411q79Y
 
 部分截图：
 
-![输入图片说明](img/2.png)
+![image](https://github.com/RKQF-JVS/jvs-knowledge-ui/assets/94048608/bcbbfb87-708c-43d6-91ff-51c4b28b94b5)
 -
-![输入图片说明](img/image3.png)
+![image](https://github.com/RKQF-JVS/jvs-knowledge-ui/assets/94048608/64c35f5a-8883-4172-81af-b616d63358c1)
 -
 ![输入图片说明](img/image%E8%BD%AC%E6%8D%A2.png)
 -
