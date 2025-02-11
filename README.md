@@ -97,6 +97,7 @@ https://www.bilibili.com/video/BV1BN411q79Y
 - 规则引擎：http://rules.bctools.cn/
 - 逻辑引擎：http://logic.bctools.cn/
 - 视频会议：http://meeting.bctools.cn/
+- APS（智能排产）：https://aps.bctools.cn/
 
 
 部分截图：
@@ -129,7 +130,8 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 
 ### 技术交流与商务支持
-![微信截图_20241009183836](https://github.com/user-attachments/assets/d7c384cb-cb3d-4db2-a7f3-932e9413ddba)
+![微信图片_20250211100806](https://github.com/user-attachments/assets/079fb424-0cb7-4fc5-af2a-94034dea8290)
+
 
 
 
