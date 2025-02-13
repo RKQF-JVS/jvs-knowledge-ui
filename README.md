@@ -1,4 +1,4 @@
-
+![小微信图片_20250213171647](https://github.com/user-attachments/assets/fdc812a8-cf99-4a2b-bdf7-ee360f8dc5f4)
 ![输入图片说明](img/1.png)
 
 ### 适用场景：
@@ -130,7 +130,8 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 
 ### 技术交流与商务支持
-![微信图片_20250211100806](https://github.com/user-attachments/assets/079fb424-0cb7-4fc5-af2a-94034dea8290)
+![小微信图片_20250213171647](https://github.com/user-attachments/assets/9b5b1b1e-da3f-4c69-880a-a6503c3a64a4)
+
 
 
 
