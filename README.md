@@ -1,4 +1,4 @@
-![小微信图片_20250213171647](https://github.com/user-attachments/assets/fdc812a8-cf99-4a2b-bdf7-ee360f8dc5f4)
+
 ![输入图片说明](img/1.png)
 
 ### 适用场景：
