@@ -130,7 +130,8 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 
 ### 技术交流与商务支持
-![微信图片_20250220101551](https://github.com/user-attachments/assets/3e71c73c-3b87-4a23-a52e-0ee1a93b24f2)
+![小微信图片_20250227142830](https://github.com/user-attachments/assets/91e2563a-61a4-4b59-a229-42a068326d4b)
+
 
 
 
@@ -141,7 +142,8 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 如因人数限制无法加群时，可加运营同学拉入技术交流群
 
-![输入图片说明](https://foruda.gitee.com/images/1693376631879434922/54ec140e_10006021.png "屏幕截图")
+![谭京](https://github.com/user-attachments/assets/53838ea6-d0c7-4bb1-abf2-cdfb99cb9743)
+
 
 
 ### 历史更新记录：
