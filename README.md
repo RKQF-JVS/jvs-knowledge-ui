@@ -130,7 +130,8 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 
 ### 技术交流与商务支持
-![小微信图片_20250307083307](https://github.com/user-attachments/assets/c13026ff-10e5-458b-a868-83e258b6cb02)
+![微信图片_20250313082150](https://github.com/user-attachments/assets/a3511dfe-f272-41bf-bb17-1128293f4e86)
+
 
 
 
