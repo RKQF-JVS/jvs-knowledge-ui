@@ -1,4 +1,3 @@
-<img width="235" height="359" alt="微信图片_20250924104037_78_235" src="https://github.com/user-attachments/assets/ad6026ac-3b05-4be0-a7ce-075f4f757dec" />
 ![输入图片说明](img/1.png)
 
 ### 适用场景：
@@ -131,7 +130,7 @@ https://github.com/RKQF-JVS/jvs-docker-compose/blob/master/readme.md
 
 ### 技术交流与商务支持
 
-<img width="235" height="359" alt="微信图片_20250924104037_78_235" src="https://github.com/user-attachments/assets/7cdc837e-1bae-423b-a91c-5a3b7a63ed0e" />
+<img width="208" height="345" alt="微信图片_20251022100945_115_235" src="https://github.com/user-attachments/assets/26914a22-4473-4e7b-bc4c-b0a14189204e" />
 
 
 
